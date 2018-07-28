@@ -1,0 +1,204 @@
+
+body {
+    background: url('images/back.jpeg');
+    background-size: cover;
+}
+
+.navbar-light 
+{
+    background: lightcoral;
+}
+.navbar-nav{
+    text-align: center;
+     margin-left: 3%vw; 
+    font-size: 20px;
+}
+
+#my-card1
+{
+    background-color: chocolate;
+    margin-left: 2%;
+    margin-top: 10%;
+    height: 80%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+.btn {
+    
+    margin-top: 30px;
+    width:100px;
+    align-self: center;
+    
+}
+.input-group-text{
+    width: 100px;
+
+    }
+
+    .form-control
+    {
+        background: lightgreen;
+        /* display: none; */
+    }
+
+    h1 {
+      text-align: center;
+        font: Sans-Serif;
+        letter-spacing: -5px;
+        color:red; 
+        padding-top: 2%;
+        text-shadow: 5px 4px 4px yellow;
+
+    }
+
+
+   #lp-pom-text-419 {
+      /* display:none; */
+
+        background:rgba(255,255,255,0); 
+        border-style:none;
+        border-radius:0px;
+        left:307px;
+        text-shadow: 5px 4px 4px #ff0099;
+
+        z-index:31;
+        width:606px;
+        height:22px;
+      }
+
+  img {
+  object-fit: fill;
+  object-position: 70% 50%; /* default value: image is centered*/
+  object-position: 0 0; /* positioned top left of the content box */
+   height: 200px; 
+
+  
+}
+.my-vedio
+{
+  object-position: 50% 50%; /* default value: image is centered*/
+  object-position: 0 0; /* positioned top left of the content box */
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.thumbnail:hover .text {
+        opacity: 1;
+      }
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.thumbnail:hover .image {
+  opacity: 0.3;
+}
+
+
+.text {
+  text-decoration-color: black;
+  color: white;
+  font-size: 16px;
+  backface-visibility: hidden;
+
+  
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-shadow: 2px 2px 4px #000;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo
+{
+    height: 20%;
+    width: 20%;
+    margin-left: 15%;
+}
+
+#content1 {
+    overflow: hidden;
+    height: 3.6em;
+    line-height: 1.2em;
+    width: 200px;
+  }
+
+  /* movie style */
+
+  
+  
+  .header
+  {
+      background-color: greenyellow;
+      height: 60%;
+  }
+  
+  .fontclor
+  {
+      color: white;
+  }
+  
+  .vision
+  {
+      display: none;
+  }
+  .listcolor
+  {
+      background-color: black;
+  }
+  
+  .srchclr
+  {
+      background-color: blue;
+      border-radius: 10% 10%;;
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    margin-top: 45%;
+    border-top: 16px solid green;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  input[type=text]:focus{
+    outline: 2px solid red;     /* oranges! yey */
+  }
+  
+  
+  /* end */
+
+  .vision
+{
+    border: 10px  3opx 25px darkorange;
+}
+.card-body
+{
+    display: none;
+    margin-bottom: 5%;
+}
+form{
+    margin-right: 4%;
+}
